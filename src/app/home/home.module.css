@@ -1,0 +1,52 @@
+.container {
+    background: linear-gradient(to right, rgb(246, 145, 160), antiquewhite);
+    width: 100%;
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 5rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    height: 80vh;
+}
+
+.profileImage {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.buttonContainer {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileImage {
+        width: 20rem;
+        height: 20rem;
+    }
+}
