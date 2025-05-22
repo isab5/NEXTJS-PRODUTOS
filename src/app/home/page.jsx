@@ -20,8 +20,7 @@ export default function Profile() {
                     <div className={styles.textContainer}>
                         <h1>Página Inicial</h1>
                         <p>Meu nome é Isabella Borin de Moraes Rosa, da Turma 2TDS1 do curso do SENAI de Valinhos-SP. Meus professores são o Marcelo Carboni e o Thiago Ferreira. </p>
-                        <p>Esta é uma atividade avaliativa da matéria de Front-End, na qual será integrada uma API criada por mim, chamada "API PRODUTOS E VENDAS", ele possui um CRUD completo e pretende simular um sistema de gerenciamento de produtos e vendas.</p>
-                        <p></p>
+                        <p>Esta é uma atividade avaliativa da matéria de Front-End, na qual será integrada uma API criada por mim, chamada "API PRODUTOS E VENDAS", ele possui um CRUD completo integrado ao banco de dados que contém duas entidades, produtos (Entidade 1) e vendas(Entidade 2), e pretende simular um sistema de gerenciamento de produtos e vendas. </p>
                     </div>
                     <Link href="/produtos">
                         <Button text="Acesse a API de produtos e vendas" styles={styles.button} />
